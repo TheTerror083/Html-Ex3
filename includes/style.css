@@ -1,0 +1,182 @@
+*{margin: 0; padding: 0;}
+
+.clearDiv{
+	clear:both
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	font-size: 18px;
+	display: block;
+	font-family: Arial, sans-serif;
+	padding-top:17px;
+	text-decoration: none;
+	color:#ffffff;
+}
+
+#wrapper {
+	width: 1000px; 
+	margin: 0px auto;
+}
+
+#logo {
+	width: 81px;
+	height:81px;
+	background: url(../images/logo.png) no-repeat;
+	display:block;
+}
+
+/*-------------------------------- Page 1 --------------------------------*/
+
+#page1 header{
+	margin-top:11px;
+	margin-bottom:48px;
+	margin-left:105px;
+}
+
+#page1 #currentPage{
+	background-color:#333333;
+}
+
+#page1 #layout1Nav {
+	float: right;
+	background-color:#b94a48;
+}
+
+#page1 li {
+	float: left;
+	height:57px;
+	width:242px;
+	text-align: center;
+}
+
+
+#page1 a {
+    text-align: center;
+}
+
+#page1 #innerBrick {
+	position:absolute;
+	margin-top: 90px;
+	margin-left: 340px;
+	width:126px;
+	height:94px;
+	background-color:#5f2624;
+}
+
+#page1 aside {
+	height: 696px;
+	width: 127px;
+	background-color:#f2dede;
+}
+
+#page1 #outerBrick {
+	position:relative;
+	width:849px;
+	height:269px;
+	display: block;
+	float:right;
+	background-color:#ee5f5b;
+	margin-left:30px;
+}
+
+#page1 main{
+
+    display:block;
+   	position: relative;
+}
+
+#page1 article {
+	opacity:0.6;
+	position: absolute;
+	top: 492px;
+    left: 218px;
+	width:692px;
+	height:175px;
+	background-color:#000000;
+}
+
+#page1 footer {
+	height:130px;
+	width:1000px;
+	background-color:#d6d6d6;
+}
+
+/*-------------------------------- Page 2 --------------------------------*/
+
+#page2 #logo{
+    margin: 39px auto;
+}
+
+#page2 main{
+	top:1px;
+	position:relative;
+    left: 242px;
+	height:1000px;
+	width:758px;
+	background-color:#ee5f5b;
+}
+
+#page2 aside{
+	float:left;
+	height:1000px;
+	width:242px;
+	background-color:#333333;
+}
+
+#page2 li{
+	width:inherit;
+	height:57px;
+	padding-left:7px;
+}
+
+#page2 article {
+	margin-left:30px;
+	position: absolute;
+	background-color:#000000;
+	opacity:0.6;
+	width:212px;
+
+}
+
+#page2 #currentPage {
+	background-color:#b94a48;
+}
+
+#rec1 {
+	height:366px;
+}
+
+#rec2 {
+	height:500px;
+	top:385px;
+}
+
+#rec3 {
+	left:242px;
+	height:560px;
+}
+
+#rec4 {
+	left:242px;
+	height:306px;
+	top:579px;
+}
+
+#rec5 {
+	height:223px;
+	left:484px;
+}
+
+
+#page2 footer {
+	position:fixed;
+	bottom:0;
+	height:57px;
+	width:1000px;
+	background-color:#d6d6d6;
+}
+
